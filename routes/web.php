@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MahasiswaController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -21,3 +22,5 @@ Route::get('/user/{id}', function ($id) {
 Route::get('/produk/{slug?}', function ($slug = 'semua-produk') {
     return "Menampilkan: " . $slug;
 });
+
+Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
