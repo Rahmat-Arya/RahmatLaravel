@@ -11,4 +11,7 @@ class MahasiswaController extends Controller
         return "ini adalah halaman mahasiswa.";
     } 
     
+    public function tes(){
+        return view("tes");
+    }
 }

@@ -1,1 +1,1 @@
-test cuy
+Halo, Selamat datang di Halaman Profile Mahasiswa.
