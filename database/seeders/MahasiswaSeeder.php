@@ -31,6 +31,6 @@ class MahasiswaSeeder extends Seeder
         // ]
         // ]);
         
-        Mahasiswa::factory(100)->create();
+        Mahasiswa::factory(50)->create();
     }
 }
